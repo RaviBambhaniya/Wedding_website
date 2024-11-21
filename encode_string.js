@@ -2,7 +2,7 @@ function encodeBase64NoPadding(inputString) {
     return btoa(inputString).replace(/=+$/, '');
 }
 
-const namesList = ["Ravi Bambhaniya"];
+const namesList = ["Solanki Ashwin"];
 
 for (const name of namesList) {
     const encodedName = encodeBase64NoPadding(name);
