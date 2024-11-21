@@ -103,7 +103,11 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   line-height: 40px;
-  font-family: "Sacramento", Arial, serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  font-family: "Sevillana", cursive;
 }
 .fh5co-nav a {
   padding: 5px 10px;

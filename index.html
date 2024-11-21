@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html class="no-js" translate="no">
+<!--<html class="no-js" translate="no">-->
+<html class="no-js">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,117 +40,58 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Google Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+          rel="stylesheet">
     <style>
-        /* Music Player Container */
-        .music-player {
-            background: #1c1c1c;
-            color: #ffffff;
-            width: 350px;
-            padding: 20px;
-            border-radius: 20px;
-            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
-            text-align: center;
-            font-family: Arial, sans-serif;
+        .get {
+            font-family: "Sevillana", cursive;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 30px !important;
+            letter-spacing: 0.5px;
         }
 
-        /* Header Section */
-        .music-header {
-            margin-bottom: 20px;
+        .you_me {
+            padding-top: 5px !important;
+            font-size: 23px !important;
         }
 
-        .song-title {
-            font-size: 20px;
-            font-weight: bold;
-            margin: 0;
+        #char_1 {
+            font-size: 35px;
+            font-weight: 600;
+            letter-spacing: 1px;
         }
 
-        .artist-name {
-            font-size: 14px;
-            color: #aaaaaa;
-            margin: 0;
+        #char_2 {
+            font-size: 35px;
+            font-weight: 600;
+            letter-spacing: 1px;
         }
-
-        /* Controls Section */
-        .music-controls {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 20px 0;
-        }
-
-        .control-btn {
-            background: none;
-            border: none;
-            color: #ffffff;
-            font-size: 24px;
-            margin: 0 10px;
-            cursor: pointer;
-            transition: transform 0.3s;
-        }
-
-        .control-btn:hover {
-            transform: scale(1.2);
-        }
-
-        /* Slider Section */
-        .music-slider {
-            position: relative;
-        }
-
-        .slider {
-            -webkit-appearance: none;
-            width: 100%;
-            height: 4px;
-            background: #555;
-            border-radius: 5px;
-            outline: none;
-            margin: 10px 0;
-        }
-
-        .slider::-webkit-slider-thumb {
-            -webkit-appearance: none;
-            appearance: none;
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background: #ff5722;
-            cursor: pointer;
-        }
-
-        .slider::-moz-range-thumb {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background: #ff5722;
-            cursor: pointer;
-        }
-
-        .time-info {
-            display: flex;
-            justify-content: space-between;
-            font-size: 12px;
-            color: #aaaaaa;
-        }
-
     </style>
 </head>
 <body>
 
 <div class="fh5co-loader"></div>
+
 <div id="page">
     <nav class="fh5co-nav" role="navigation">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-center">
-                    <div id="fh5co-logo"><a href="" style="color: black;">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ
-                        ٱلرَّحِيْمِ<strong>.</strong></a></div>
+                    <div id="fh5co-logo"><a href="" style="color: white;"> Vakra-Tunndda Maha-Kaaya Suurya-Kotti
+                        Samaprabha | <br>
+                        Nirvighnam Kuru Me Deva Sarva-Kaaryessu Sarvadaa ||
+                        <strong>.</strong></a></div>
                 </div>
             </div>
 
         </div>
     </nav>
 
-    <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.png);"
+    <header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/wed_web_bg.jpg);"
             data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
@@ -157,9 +99,9 @@
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <div class="display-t">
                         <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                            <h2>We are getting married!</h2>
+                            <h2 class="get">We are getting married!</h2>
                             <h1>Jagdish &amp; Kiran</h1>
-                            <h2>وَخَلَقۡنَٰكُمۡ أَزۡوَٰجٗا (Quran 78:8)</h2>
+                            <h2 class="you_me"> Happiness Means You & Me Together</h2>
                             <div class="simply-countdown simply-countdown-one"></div>
                         </div>
                     </div>
@@ -172,40 +114,40 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 text-center fh5co-heading animate-box">
-                    <h2>Assalamu alaykum<br><span id="invitee"
-                                                  style="font-family: math; font-size: smaller; color: #5d8518;">
+                    <h2>|| 🙏 Jay Shree Ram 🙏 ||<br><span id="invitee"
+                                                         style="font-family: math; font-size: smaller; color: #5d8518;">
                     </h2></h2>
                     <h3>We are inviting you to celebrate our wedding</h3>
-                    <p>December 08th, 2024 Jamnagar, Gujarat</p>
+                    <p>February 07th, 2025 Thareli Sutrapada, Gujarat</p>
                 </div>
             </div>
             <div class="couple-wrap animate-box">
                 <div class="couple-half">
 
                     <div class="groom">
-                        <a href="http://ashad-khira.github.io/vCard" target="_blank"><img src="images/groom.png"
+                        <a href="http://ashad-khira.github.io/vCard" target="_blank"><img src="images/person_1.jpg"
                                                                                           alt="groom"
                                                                                           class="img-responsive"></a>
                     </div>
                     <div class="desc-groom">
-                        <h3><a href="http://ashad-khira.github.io/vCard" target="_blank">Ashad Khira</a></h3>
-                        <p><em>- (S/O. Nasim Gulamhusain Khira)</em></p>
-                        <p>هُوَ الَّذِي خَلَقَكُم مِّن نَّفْسٍ وَاحِدَةٍ وَجَعَلَ مِنْهَا زَوْجَهَا لِيَسْكُنَ إِلَيْهَا<br>(Surah
-                            Al-A'raf, 7:189)<br>It is He who created you from one soul and created from it its mate that
-                            he might dwell in security with her.</p>
+                        <h3 id="char_1"><a href="http://ashad-khira.github.io/vCard" target="_blank">Jagdish
+                            Chudasama</a></h3>
+                        <p><em>- (S/O. Kalubhai Chudasama)</em></p>
+                        <p>Life is incomplete without a wife,<br> Wife is the better half of the husband.
+                            Their union is the beginning of the infinite journey of creation.</p>
                     </div>
                 </div>
                 <p class="heart text-center"><i class="icon-heart2"></i></p>
                 <div class="couple-half">
                     <div class="bride">
-                        <img src="images/bride.png" alt="groom" class="img-responsive">
+                        <img src="images/person_2.jpg" alt="groom" class="img-responsive">
                     </div>
                     <div class="desc-bride">
-                        <h3>Ardina Khira</h3>
-                        <p><em>- (D/O. Zakir Haji Sultan Khira)</em></p>
-                        <p>وَمِنْ كُلِّ شَيْءٍ خَلَقْنَا زَوْجَيْنِ لَعَلَّكُمْ تَذَكَّرُونَ"<br>(Surah Adh-Dhariyat,
-                            51:49)<br>And of all things We created [in] pairs, that you may remember [the grace of
-                            Allah].</p>
+                        <h3 id="char_2">Kiran Vadher</h3>
+                        <p><em>- (D/O. Chinabhai Vadher)</em></p>
+                        <p> Marriage is not just a union of two souls,
+it is also a union of two families.
+This sanskar is the beginning of a journey of eternal love and affection. </p>
                     </div>
                 </div>
             </div>
@@ -303,12 +245,12 @@
                     <div class="fh5co-contact-info">
                         <h3>Contact</h3>
                         <ul>
-                            <li class="address"><a href="https://maps.app.goo.gl/KbEHFr5oTvYiCvNa6" target="_blank">8,
-                                Maharaja Society, Near Lotus School, Jamnagar.</a></li>
-                            <li class="phone"><a href="tel://9537099393">+91 95370 99393</a></li>
-                            <li class="email"><a href="mailto:ashadkhira@gmail.com">ashadkhira@gmail.com</a></li>
-                            <li class="url"><a href="https://ashad-khira.github.io/vCard/" target="_blank">Ashad Khira's
-                                Portfolio</a></li>
+                            <li class="address"><a href="https://maps.app.goo.gl/KbEHFr5oTvYiCvNa6" target="_blank">
+                                Navapara Vistar, Near Bapa Sitaram Madhuli, Thareli.</a></li>
+                            <li class="phone"><a href="tel://9327892056">+91 93278 92056</a></li>
+                            <li class="email"><a href="mailto:rb7200526@gmail.com"> rb7200526@gmail.com </a></li>
+<!--                            <li class="url"><a href="https://ashad-khira.github.io/vCard/" target="_blank">Ashad Khira's-->
+<!--                                Portfolio</a></li>-->
                         </ul>
                     </div>
 
@@ -346,54 +288,27 @@
         </div>
     </div>
 
-    <!--    <div id="fh5co-services" class="fh5co-bg">-->
-    <!--        <div class="container">-->
-    <!--            <div class="col-md-12 text-center">-->
-    <!--                <audio id="myAudio" autoplay muted controls>-->
-    <!--                    <source src="./audio/kara_sevda_Anlatamam.mp3" type="audio/mpeg">-->
-    <!--                    Your browser does not support the audio element.-->
-    <!--                </audio>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </div>-->
-
-    <div id="music-player" class="music-player">
-        <div class="music-header">
-            <h3 class="song-title">A Good Time</h3>
-            <p class="artist-name">Ravi Bambhaniya</p>
-        </div>
-        <div class="music-controls">
-            <button id="prev" class="control-btn">⏮️</button>
-            <button id="playPause" class="control-btn">▶️</button>
-            <button id="next" class="control-btn">⏭️</button>
-        </div>
-        <div class="music-slider">
-            <input
-                    type="range"
-                    id="progressBar"
-                    min="0"
-                    max="100"
-                    value="0"
-                    class="slider"
-            />
-            <div class="time-info">
-                <span id="currentTime">0:00</span>
-                <span id="duration">0:00</span>
+    <div id="fh5co-services" class="fh5co-bg">
+        <div class="container">
+            <div class="col-md-12 text-center">
+                <audio id="myAudio" autoplay muted controls>
+                    <source src="./audio/kara_sevda_Anlatamam.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
             </div>
         </div>
     </div>
-    <audio id="audio" src="./audio/kara_sevda_Anlatamam.mp3"></audio>
-
 
     <footer id="fh5co-footer" role="contentinfo">
         <div class="container">
             <div class="row copyright">
                 <div class="col-md-12 text-center">
                     <p>
-                        <small class="block">मोहब्बत की दास्तां का आग़ाज़ करने जा रहे हैं,<br>ख़ुदा की रहमत में बंधन
-                            सजाने जा रहे हैं।<br>
-                            आपके बग़ैर अधूरी रहेगी ये ख़ुशियों की रात,<br>दिल से दावत देने आपको बुलाने जा रहे
-                            हैं।</small>
+                        “स्वागतम् है आपका इस शुभ अवसर पर, <br>
+जहां स्नेह और संस्कार का मेल होगा। <br>
+हवन और फेरे की साक्षी बनेगी अग्नि पवित्र, <br>
+इस मंगल क्षण पर आपको सादर आमंत्रित कर रहे हैं।”
+                        <br>
                         <br>
                     <h2 style='font-family:"Sacramento", Arial, serif; color:#88b240; font-size: 40px; font-weight: bold;'>
                         Most Welcome!</h2>
@@ -438,16 +353,16 @@
 
     // default example
     simplyCountdown('.simply-countdown-one', {
-        year: 2024,
-        month: 12,
-        day: 8
+        year: 2025,
+        month: 2,
+        day: 7
     });
 
     //jQuery example
-    $('#simply-countdown-losange').simplyCountdown({
-        year: 2024,
-        month: 12,
-        day: 8,
+        $('#simply-countdown-losange').simplyCountdown({
+        year: 2025,
+        month: 2,
+        day: 7,
         enableUtc: false
     });
 </script>
@@ -550,51 +465,5 @@
     };
 </script>
 
-<script>
-    const audio = document.getElementById("audio");
-    const playPauseBtn = document.getElementById("playPause");
-    const progressBar = document.getElementById("progressBar");
-    const currentTimeSpan = document.getElementById("currentTime");
-    const durationSpan = document.getElementById("duration");
-
-    let isPlaying = false;
-
-    // Toggle Play/Pause
-    playPauseBtn.addEventListener("click", () => {
-        if (isPlaying) {
-            audio.pause();
-            playPauseBtn.textContent = "▶️";
-        } else {
-            audio.play();
-            playPauseBtn.textContent = "⏸️";
-        }
-        isPlaying = !isPlaying;
-    });
-
-    // Update Progress Bar and Time
-    audio.addEventListener("timeupdate", () => {
-        const progress = (audio.currentTime / audio.duration) * 100;
-        progressBar.value = progress;
-        currentTimeSpan.textContent = formatTime(audio.currentTime);
-    });
-
-    // Set Duration when metadata is loaded
-    audio.addEventListener("loadedmetadata", () => {
-        durationSpan.textContent = formatTime(audio.duration);
-    });
-
-    // Change Audio Time on Slider Input
-    progressBar.addEventListener("input", () => {
-        audio.currentTime = (progressBar.value / 100) * audio.duration;
-    });
-
-    // Format Time Function
-    function formatTime(seconds) {
-        const minutes = Math.floor(seconds / 60);
-        const secs = Math.floor(seconds % 60).toString().padStart(2, "0");
-        return `${minutes}:${secs}`;
-    }
-
-</script>
 </body>
 </html>
